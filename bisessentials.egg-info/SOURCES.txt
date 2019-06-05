@@ -1,0 +1,6 @@
+README.md
+setup.py
+bisessentials.egg-info/PKG-INFO
+bisessentials.egg-info/SOURCES.txt
+bisessentials.egg-info/dependency_links.txt
+bisessentials.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bisbasic
+Version: 4.3.0.1
+Summary: Bismuth Blockchain Dependencies
+Home-page: https://github.com/bismuthfoundation/Bismuth
+Author: Bismuth Foundation
+Author-email: admin@bismuth.cz
+License: UNKNOWN
+Description: Bismuth Readme
+        =======
+        
+        Official website:
+        * http://bismuth.cz
+        
+        This package includes parts of the Bismuth node which are required by some daps.
+        Currently it includes:
+        
+        
+        - connecitons.py
+        - essentials.py
+        - options.py
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
