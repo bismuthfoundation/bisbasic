@@ -1,24 +1,36 @@
 Metadata-Version: 2.1
 Name: bisbasic
-Version: 4.3.0.1
+Version: 0.4.4
 Summary: Bismuth Blockchain Dependencies
 Home-page: https://github.com/bismuthfoundation/Bismuth
 Author: Bismuth Foundation
 Author-email: admin@bismuth.cz
 License: UNKNOWN
-Description: Bismuth Readme
+Description: Bisbasic Readme
         =======
-        
-        Official website:
-        * http://bismuth.cz
         
         This package includes parts of the Bismuth node which are required by some daps.
         Currently it includes:
         
-        
-        - connecitons.py
+        - bisurl.py
+        - connections.py
         - essentials.py
+        - log.py
         - options.py
+        - quantizer.py
+        - simplecrypt.py
+        
+        Installation: 
+        - `python3 -m pip install bisbasic`
+        
+        Usage examples:
+        - `from bisbasic.connections import send, receive`
+        - `from bisbasic import connections, essentials, options`
+        - `from bisbasic.bisurl import *`
+        - `from bisbasic.polysign.signerfactory import SignerFactory`
+        - `from bisbasic.quantizer import quantize_eight`
+        - `from bisbasic.simplecrypt import encrypt, decrypt`
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)

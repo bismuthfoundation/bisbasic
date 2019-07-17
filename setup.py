@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bisbasic",
-    version="4.3.0.1",
+    version="0.4.4",
     author="Bismuth Foundation",
     author_email="admin@bismuth.cz",
     description="Bismuth Blockchain Dependencies",
