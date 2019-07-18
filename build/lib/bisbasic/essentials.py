@@ -14,13 +14,14 @@ import requests
 # from Crypto import Random
 from Cryptodome.PublicKey import RSA
 
-from quantizer import *
-from simplecrypt import *
-from typing import Union
-from polysign.signer import SignerType
-from polysign.signerfactory import SignerFactory
+from bisbasic.quantizer import *
+from bisbasic.simplecrypt import *
+from bisbasic.polysign.signer import SignerType
+from bisbasic.polysign.signerfactory import SignerFactory
 
-__version__ = "0.0.6"
+from typing import Union
+
+__version__ = "0.0.7"
 
 """
 For temp. code compatibility, dup code moved to polysign module
