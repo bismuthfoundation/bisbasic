@@ -16,8 +16,8 @@ from Cryptodome.PublicKey import RSA
 
 from bisbasic.quantizer import *
 from bisbasic.simplecrypt import *
-from bisbasic.polysign.signer import SignerType
-from bisbasic.polysign.signerfactory import SignerFactory
+from polysign.signer import SignerType
+from polysign.signerfactory import SignerFactory
 
 from typing import Union
 
