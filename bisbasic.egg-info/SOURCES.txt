@@ -1,13 +1,9 @@
 README.md
 setup.py
 bisbasic/__init__.py
-bisbasic/bisurl.py
-bisbasic/connections.py
 bisbasic/essentials.py
-bisbasic/log.py
 bisbasic/options.py
 bisbasic/quantizer.py
-bisbasic/simplecrypt.py
 bisbasic.egg-info/PKG-INFO
 bisbasic.egg-info/SOURCES.txt
 bisbasic.egg-info/dependency_links.txt
