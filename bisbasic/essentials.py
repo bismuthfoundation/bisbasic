@@ -15,7 +15,6 @@ import requests
 from Cryptodome.PublicKey import RSA
 
 from bisbasic.quantizer import *
-from bisbasic.simplecrypt import *
 from polysign.signer import SignerType
 from polysign.signerfactory import SignerFactory
 
